@@ -8,10 +8,13 @@
 import SwiftUI
 
 @main
-struct ChallengeProductsAppApp: App {
+struct ChallengeProductsApp: App {
+
+    private let container = AppContainer()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppRootView(container: container)
         }
     }
 }

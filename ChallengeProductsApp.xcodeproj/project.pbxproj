@@ -6,14 +6,35 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		82BEA05C2F1878A600EF2AE5 /* TestPlan.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 82BEA05B2F1878A600EF2AE5 /* TestPlan.xctestplan */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82B92E622F18461B004D685E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 826FC9202F183FFC00B499B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 826FC9272F183FFC00B499B9;
+			remoteInfo = ChallengeProductsApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		826FC9282F183FFC00B499B9 /* ChallengeProductsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChallengeProductsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B92E5E2F18461B004D685E /* ChallengeProductsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChallengeProductsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82BEA05B2F1878A600EF2AE5 /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		826FC92A2F183FFC00B499B9 /* ChallengeProductsApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ChallengeProductsApp;
+			sourceTree = "<group>";
+		};
+		82B92E5F2F18461B004D685E /* ChallengeProductsAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ChallengeProductsAppTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -26,13 +47,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		82B92E5B2F18461B004D685E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		826FC91F2F183FFC00B499B9 = {
 			isa = PBXGroup;
 			children = (
+				82BEA05B2F1878A600EF2AE5 /* TestPlan.xctestplan */,
 				826FC92A2F183FFC00B499B9 /* ChallengeProductsApp */,
+				82B92E5F2F18461B004D685E /* ChallengeProductsAppTests */,
 				826FC9292F183FFC00B499B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				826FC9282F183FFC00B499B9 /* ChallengeProductsApp.app */,
+				82B92E5E2F18461B004D685E /* ChallengeProductsAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +101,29 @@
 			productReference = 826FC9282F183FFC00B499B9 /* ChallengeProductsApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		82B92E5D2F18461B004D685E /* ChallengeProductsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82B92E642F18461B004D685E /* Build configuration list for PBXNativeTarget "ChallengeProductsAppTests" */;
+			buildPhases = (
+				82B92E5A2F18461B004D685E /* Sources */,
+				82B92E5B2F18461B004D685E /* Frameworks */,
+				82B92E5C2F18461B004D685E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82B92E632F18461B004D685E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				82B92E5F2F18461B004D685E /* ChallengeProductsAppTests */,
+			);
+			name = ChallengeProductsAppTests;
+			packageProductDependencies = (
+			);
+			productName = ChallengeProductsAppTests;
+			productReference = 82B92E5E2F18461B004D685E /* ChallengeProductsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -82,6 +136,10 @@
 				TargetAttributes = {
 					826FC9272F183FFC00B499B9 = {
 						CreatedOnToolsVersion = 26.2;
+					};
+					82B92E5D2F18461B004D685E = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 826FC9272F183FFC00B499B9;
 					};
 				};
 			};
@@ -100,12 +158,21 @@
 			projectRoot = "";
 			targets = (
 				826FC9272F183FFC00B499B9 /* ChallengeProductsApp */,
+				82B92E5D2F18461B004D685E /* ChallengeProductsAppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		826FC9262F183FFC00B499B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BEA05C2F1878A600EF2AE5 /* TestPlan.xctestplan in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B92E5C2F18461B004D685E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +189,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		82B92E5A2F18461B004D685E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82B92E632F18461B004D685E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 826FC9272F183FFC00B499B9 /* ChallengeProductsApp */;
+			targetProxy = 82B92E622F18461B004D685E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		826FC9312F183FFE00B499B9 /* Debug */ = {
@@ -256,11 +338,12 @@
 				DEVELOPMENT_TEAM = 46KX482EDG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Challenge Product APP";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -269,12 +352,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.johnn.mancilla.ChallengeProductsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -288,11 +375,12 @@
 				DEVELOPMENT_TEAM = 46KX482EDG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Challenge Product APP";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,12 +389,58 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.johnn.mancilla.ChallengeProductsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		82B92E652F18461B004D685E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46KX482EDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnn.mancilla.ChallengeProductsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChallengeProductsApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChallengeProductsApp";
+			};
+			name = Debug;
+		};
+		82B92E662F18461B004D685E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46KX482EDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnn.mancilla.ChallengeProductsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChallengeProductsApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChallengeProductsApp";
 			};
 			name = Release;
 		};
@@ -327,6 +461,15 @@
 			buildConfigurations = (
 				826FC9342F183FFE00B499B9 /* Debug */,
 				826FC9352F183FFE00B499B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82B92E642F18461B004D685E /* Build configuration list for PBXNativeTarget "ChallengeProductsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82B92E652F18461B004D685E /* Debug */,
+				82B92E662F18461B004D685E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

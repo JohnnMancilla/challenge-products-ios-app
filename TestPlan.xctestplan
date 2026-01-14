@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "89611976-EB83-47B4-B196-2AA209982E1D",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:ChallengeProductsApp.xcodeproj",
+        "identifier" : "82B92E5D2F18461B004D685E",
+        "name" : "ChallengeProductsAppTests"
+      }
+    }
+  ],
+  "version" : 1
+}
