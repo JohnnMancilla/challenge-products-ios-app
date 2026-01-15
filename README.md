@@ -11,7 +11,7 @@ El objetivo del proyecto es demostrar buenas prácticas de arquitectura, persist
 
 ### Lista de Productos
 - Obtención de productos desde la API:
-  https://fakestoreapi.com/products
+  https://fakestoreapi.com/products or se puede usar la api que se genero en https://github.com/JohnnMancilla/challenge-products-api y se puede correr local en http://localhost:3000/products
 - Visualización de:
   - Imagen del producto
   - Título
